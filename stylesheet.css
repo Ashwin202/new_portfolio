@@ -1,6 +1,53 @@
 * {
-    cursor: url('icons8-cursor-30.png'), auto;	
+    cursor: url('./assets/icons8-cursor-30.png'), auto;	
   }
+
+  @media (min-width: 992px) {
+    .col-md-offset-1 {
+        margin-left: 8.63333333%;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-12 {
+        width: 73.33333333%;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-12 {
+        float: left;
+    }
+}
+@media screen and (max-width:768px){
+    h2{
+       font-size:1.37em;
+       margin-top: 8%;
+    }
+    .col-md-offset-1 {
+        margin-left: 7.33333333%;
+    }   
+    .col-md-12 {
+        width: 85.33333333%;
+    } 
+    #footer-text{
+        font-size: 1em;   
+     }
+     .description {
+        margin: 8px auto 0;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+        width: 1152px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
 
 .page-header {
     width: 100%;
@@ -9,7 +56,7 @@
     z-index: -1;
     margin: 0;
     padding: 0;
-    background-image: url("header1.png");
+    background-image: url("./assets/header1.png");
     background-position: top center;
     /* transform: translate3d(0px, 0px, 0px); */
 }
@@ -27,18 +74,6 @@
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-}
-
-@media (min-width: 1200px) {
-    .container {
-        width: 1152px;
-    }
-}
-
-@media (min-width: 992px) {
-    .container {
-        width: 970px;
-    }
 }
 
 .row {
@@ -114,39 +149,3 @@ h2{
 a:link{
     color: beige;
 }
-@media (min-width: 992px) {
-    .col-md-offset-1 {
-        margin-left: 8.63333333%;
-    }
-}
-
-@media (min-width: 992px) {
-    .col-md-12 {
-        width: 73.33333333%;
-    }
-}
-
-@media (min-width: 992px) {
-    .col-md-12 {
-        float: left;
-    }
-}
-@media screen and (max-width:768px){
-    h2{
-       font-size:1.37em;
-       margin-top: 8%;
-    }
-    .col-md-offset-1 {
-        margin-left: 7.33333333%;
-    }   
-    .col-md-12 {
-        width: 85.33333333%;
-    } 
-    #footer-text{
-        font-size: 1em;   
-     }
-     .description {
-        margin: 8px auto 0;
-    }
-  }
-  
