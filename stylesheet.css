@@ -79,7 +79,7 @@ div {
 
 .img-circle {
     margin-top: -50px;
-    max-width: 180px;
+    max-width: 150px;
 }
 
 .description {
@@ -93,7 +93,7 @@ p {
     margin: 0 0 10px;
 }
 h2{
-    margin-top: revert;
+    margin-top: 6%;
 }
 @media (min-width: 992px) {
     .col-md-offset-1 {
@@ -114,7 +114,8 @@ h2{
 }
 @media screen and (max-width:768px){
     h2{
-       font-size:1.35em;
+       font-size:1.37em;
+       margin-top: 8%;
     }
     .col-md-offset-1 {
         margin-left: 7.33333333%;
