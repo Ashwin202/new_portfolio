@@ -49,7 +49,6 @@
         width: 970px;
     }
 }
-
 .page-header {
     width: 100%;
     position: relative;
@@ -153,4 +152,7 @@ a:link{
 }
 .header-icon{
     color: #181818;
+}
+.card{
+    margin: 25px;
 }
